@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        throw new Exception("an error have occured");
         return View();
     }
 
